@@ -5,4 +5,9 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-ping -n 5 $1
+echo "Running latency test for $1"
+
+ping -c 10 $1 | tee latency_output.txt
+
+avg=$(grep 'avg' latency_output.txt | awk -F '/' '{print $5}')
+echo "Average RTT: $avg ms"
