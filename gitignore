@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Outputs
+latency_results.csv
+latency_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
