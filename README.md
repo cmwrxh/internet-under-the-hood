@@ -1,3 +1,5 @@
+![CI](https://github.com/cmwrxh/internet-under-the-hood/actions/workflows/network-health.yml/badge.svg)
+
 # 🌐 Internet Under The Hood
 ### Observing, Measuring, and Explaining Real Internet Behavior
 
