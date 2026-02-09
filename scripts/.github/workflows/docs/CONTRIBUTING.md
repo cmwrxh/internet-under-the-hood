@@ -2,10 +2,11 @@
 
 ## Principles
 - Evidence before claims
-- Reproducible experiments
-- Clear documentation
+- Reproducible steps
+- Clear, minimal, structured docs
 
-## Pull Request Rules
-- Include screenshots or packet logs
-- Explain methodology
-- Provide expected vs actual results
+## PR Checklist
+- [ ] Lab uses docs/lab-template.md format
+- [ ] Includes commands + environment notes
+- [ ] Includes results (table/logs/screenshots)
+- [ ] Explains interpretation and limitations
