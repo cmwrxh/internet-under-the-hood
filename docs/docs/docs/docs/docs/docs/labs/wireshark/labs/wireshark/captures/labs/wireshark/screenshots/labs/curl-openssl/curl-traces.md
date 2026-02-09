@@ -9,7 +9,9 @@ Observe HTTP negotiation behavior.
 
 ### HTTP2
 curl -I --http2 https://google.com
-CURL II --http3 https://cloudflare.com
+
+### HTTP3
+curl -I --http3 https://cloudflare.com
 
 ---
 
