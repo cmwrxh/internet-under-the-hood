@@ -13,4 +13,3 @@ Browser
   │
   └─ Response → content + headers + caching rules
 
-
